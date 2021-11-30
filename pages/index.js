@@ -21,7 +21,7 @@ const Demo = () => {
   return (
     <div>
       <Header email={AuthUser.email} signOut={AuthUser.signOut} />
-      <div style={styles.content}>
+      {/* <div style={styles.content}>
         <div style={styles.infoTextContainer}>
           <h3>Home</h3>
           <p>
@@ -34,7 +34,7 @@ const Demo = () => {
           </p>
         </div>
         <DemoPageLinks />
-      </div>
+      </div> */}
     </div>
   )
 }
