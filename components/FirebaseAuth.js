@@ -17,7 +17,7 @@ const firebaseAuthConfig = {
       requireDisplayName: false,
     },
     {provider: firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-      requireDisplayName: false,
+      requireDisplayName: true,
     }
   ],
   signInSuccessUrl: '/',
